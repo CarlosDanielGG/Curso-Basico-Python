@@ -5,6 +5,8 @@ calificacion = int(calificacion)
 #Condicional
 if calificacion < 700 :
     print("Ves?, Por no estudiar baboso") #indentación es un espacio que indica que el codigo pertenece al if es como las llaves {}
+elif calificacion == 700 :
+    print("De Panzaso canijo")
 elif calificacion > 1000:
     print("Mientes, me haces daño y luego te arrepientes")    
 else:
